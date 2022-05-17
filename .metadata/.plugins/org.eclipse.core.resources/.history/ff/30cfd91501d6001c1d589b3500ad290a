@@ -1,0 +1,12 @@
+package com.masai;
+
+public class Assignment3 {
+	static void myMethod(int num) {
+		int result= (num*(num+1))/2;
+		System.out.println(result);
+	}
+	
+	public static void main(String[] args) {
+		myMethod(5);
+	}
+}
