@@ -5,14 +5,16 @@ public class Main {
 	public static String reversString(String input){
 		//write the logic
 		
-	  	String s="";
+	  	char[] arr  =  input.toCharArray();
+		StringBuilder stringBuilder = new StringBuilder("");
+		
 	  	for(int i=input.length()-1; i>=0; i--) {
-	  		s +=input.charAt(i);
+	  		stringBuilder.append(arr[i]);
 	  	}
 		
 		
-		
-		return s;
+		char[] bagString =  stringBuilder.toString();
+		return bagString;
 	
 		}
 		public static void main(String[] args){
