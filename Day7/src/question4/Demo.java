@@ -30,29 +30,18 @@ public class Demo {
 
 	public static void main(String[] args) {
 	
-		Scanner sc = new Scanner(System.in);
+		try (Scanner sc = new Scanner(System.in)) {
+			
+			for(int x = 0;x< 3;x++) {
+				System.out.println("Enter Bank Name");
+				Bank b = Demo.getBank(sc.next());
+				Demo.findBank(b);
+				
+				System.out.println("****************************************");
+			}
+		}
 		
-		
-		System.out.println("Enter Bank Name (axis / icici) : ");
-		Bank b = Demo.getBank(sc.next());
-		Demo.findBank(b);
-		
-		System.out.println("****************************************");
-		
-		System.out.println("Enter Bank Name (axis / icici) : ");
-		b = Demo.getBank(sc.next());
-		Demo.findBank(b);
-
-		System.out.println("****************************************");
-		
-		System.out.println("Enter Bank Name (axis / icici) : ");
-		b = Demo.getBank(sc.next());
-		Demo.findBank(b);
-		
-		sc.close();
-
-		
-		
+	
 	}
 
 }
