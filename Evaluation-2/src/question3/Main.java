@@ -4,22 +4,24 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
-
-		try (Scanner scanner = new Scanner(System.in)) {
-			//Write logic to get numberOfPassenger and numberOfKms
-			System.out.println("Enter Number of Passenger");
-			int numberOfPassenger = scanner.nextInt();
+	  
+		public static void main(String[] args) {
 			
-			System.out.println("Enter Number of Kms");
-			int numberOfKms = scanner.nextInt();
-
-			OLA myOla = new OLA();
-			Car myCar = myOla.bookCar(numberOfPassenger, numberOfKms);
-			
-			int res = myOla.calculateBill(myCar);
-
-			System.out.println("The total fare amount is"+ res);
+			try (Scanner sc = new Scanner(System.in)) {
+				System.out.println("Enter the Number of Passenger");
+				int numberOfPassenger=sc.nextInt();
+				
+				System.out.println("Enter the number of Kms");
+				int numberOfKms= sc.nextInt();
+				
+				
+				OLA myOla = new OLA();
+				Car myCar = myOla.bookCar(numberOfPassenger, numberOfKms);
+				int res = myOla.calculateBill(myCar);
+				
+				System.out.println("------------------------------------");
+				System.out.println("The total fare amount is"+ res);
+			}
 		}
-		}
+		
 }

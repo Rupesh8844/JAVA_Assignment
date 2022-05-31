@@ -2,48 +2,33 @@ package question3;
 
 public class OLA {
 
-	private String obj2;
-	private String obj;
+
 	public  Car bookCar(int numberOfPassenger, int numberOfKMs) {
 		if(numberOfPassenger<=3) {
-			Car c= new Car();
-			c.setNumberOfPassenger(numberOfPassenger);
-			c.setNumberOfKms(numberOfKMs);
-			HatchBack h = new HatchBack();
+		HatchBack h = new HatchBack();
+		   h.numberOfKms=numberOfKMs;
 			return h;
 			
 		}
 		else {
-			Car c= new Car();
-			c.setNumberOfPassenger(numberOfPassenger);
-			c.setNumberOfKms(numberOfKMs);
+		
 			Sedan s = new Sedan();
+			s.numberOfKms=numberOfKMs;
 			return s;
 		}
 	}
+	
+	
 	public int calculateBill(Car car) {
-        
-		int value= 0;
-		
-		
-		if(car.equals("Sedan")) {
-			Car c= new Car();
-			Sedan s = new Sedan();
-			int total=c.getNumberOfKms()*s.farePerKm;
-			value=total;
+		 
+		if(car instanceof Sedan) {
+			int total=	car.numberOfKms*((Sedan)car).farePerKm;
+		return total;
 		}
 		else {
-
-                
-				if(car.equals("HatchBack")) {
-					Car c= new Car();
-				HatchBack h = new HatchBack();
-				int total=c.getNumberOfKms()*h.farePerKm;
-				value=total;
-		       }
-			
-		   }
-		
-		return value;
+			int total = car.numberOfKms*((HatchBack)car).farePerKm;
+			return total;
 		}
+		
+	}
 }
