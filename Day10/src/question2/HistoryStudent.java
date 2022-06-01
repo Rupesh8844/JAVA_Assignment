@@ -39,6 +39,7 @@ public class HistoryStudent extends Student{
 		
 		System.out.println("Student Name: "+ name);
 		System.out.println("Student Stream: History Student");
+		
 		return per;
 		
 	}

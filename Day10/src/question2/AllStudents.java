@@ -37,11 +37,10 @@ public class AllStudents {
 			
 			
 			System.out.println("Enter Student Name");
-			String name2 = scan.nextLine();
+			String name2 = scan.next();
 			
-			scan.nextLine();
 			System.out.println("Enter Student Address");
-			String address2 = scan.nextLine();
+			String address2 = scan.next();
 			
 			System.out.println("Enter History Mark");
 			int historyMarks = scan.nextInt();
