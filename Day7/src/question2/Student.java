@@ -6,7 +6,6 @@ public class Student {
 	private String	studName;
 	private double	examFee;
 	 
-	 
 	 public int getStudId() {
 		return studId;
 	}

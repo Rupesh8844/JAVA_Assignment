@@ -12,6 +12,7 @@ public class Student {
 		address = string2;
 		collegeName = string3;
 	}
+	
 
 	public void getName() {
 		

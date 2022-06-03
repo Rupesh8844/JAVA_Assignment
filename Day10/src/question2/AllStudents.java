@@ -10,6 +10,7 @@ public class AllStudents {
 //			====================ScienceStudent==================================================
 
 			
+			
 			System.out.println("Enter Student Name");
 			String name = scan.next();
 			

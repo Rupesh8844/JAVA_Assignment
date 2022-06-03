@@ -3,7 +3,6 @@ package question2;
 public class Parent {
 	
 	final int num;
-	
 
 	 Parent(int num){
 		this.num = num;

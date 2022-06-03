@@ -11,6 +11,7 @@ public class Define {
 		
 		*/
 	
+	
 	/* ans=> String is immutable in java because it secure their position in string pool so that further we can't upgrade 
 	 * the string.
 	 * 

@@ -9,6 +9,7 @@ public class Bird {
 
 
 
+
 /*
 Q1)Create an class Bird, with method :
 Public void fly(){

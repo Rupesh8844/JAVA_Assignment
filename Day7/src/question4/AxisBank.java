@@ -14,6 +14,7 @@ public class AxisBank extends Bank{
 		this.rateOfInterest = sc.nextDouble();
 	}
 
+	
 	double rateOfInterest;
 	
 	@Override

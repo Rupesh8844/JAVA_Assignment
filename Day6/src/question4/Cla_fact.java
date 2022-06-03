@@ -11,6 +11,7 @@ public class Cla_fact {
 		        for(int x=1;x<=i0;x++) {
 		        	fact=fact*x;
 		        }
+		        
 		  System.out.println(fact);
 		  }
 		  

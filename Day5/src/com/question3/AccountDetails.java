@@ -14,6 +14,7 @@ public class AccountDetails {
 	Account account=new Account();
 	
 	
+	
 	//to get the account details of user
 	// and the region to use account class kyuki we also need to return data in object format
 	

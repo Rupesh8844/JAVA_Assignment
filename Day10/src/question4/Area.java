@@ -8,6 +8,7 @@ public class Area extends Shape{
 		return rect;
 	}
 
+	
 	@Override
 	public int squareArea(int side) {
 		int sqr= (side*side);

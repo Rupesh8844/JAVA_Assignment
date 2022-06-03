@@ -2,7 +2,6 @@ package question3;
 
 public class OLA {
 
-
 	public  Car bookCar(int numberOfPassenger, int numberOfKMs) {
 		if(numberOfPassenger<=3) {
 		HatchBack h = new HatchBack();

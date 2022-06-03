@@ -6,7 +6,9 @@ public class Assignment4 {
 		  System.out.println(total);
 	  }
 	  
+	  
 	  public static void main(String[]args) {
 		myMethod(5,1,2,5,2);
 	  }
+	  
 }

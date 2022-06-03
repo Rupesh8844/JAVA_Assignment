@@ -13,6 +13,7 @@ public class StudentDetails {
 	    System.out.println("==========================");
 	}
 	
+	
 	public static void main(String[] argus) {
 		
 		StudentDetails d1 = new StudentDetails();

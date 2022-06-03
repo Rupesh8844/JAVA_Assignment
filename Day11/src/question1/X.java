@@ -4,6 +4,7 @@ public interface X {
 	
 	void method_X1();
 	
+	
 	default void method_X2() {
 		System.out.println("inside default method_X2 of X interface");
 	}

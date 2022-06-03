@@ -26,6 +26,7 @@ public class Demo {
 						Demo d = new Demo();
 						Hotel h = d.provideFood(amt);
 						
+						
 						if(h instanceof TajHotel) {
 							TajHotel h1 = ((TajHotel) h);
 							h1.chickenBiryani();

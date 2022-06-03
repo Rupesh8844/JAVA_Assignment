@@ -4,6 +4,7 @@ public class Main {
 	
 public static void main(String[] args) {
 	
+	
 	  Hosteller hosteller= new Hosteller(60000);
 	  
    DayScholar dayScholar= new DayScholar(4000);

@@ -5,6 +5,7 @@ public class JavaBeanMain {
 		// TODO Auto-generated method stub
 
 		
+		
 		JavaBean d1 = new JavaBean();
         d1.setAge(21);
         d1.setName("Rupesh");

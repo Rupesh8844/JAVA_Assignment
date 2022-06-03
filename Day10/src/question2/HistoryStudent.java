@@ -9,6 +9,7 @@ public class HistoryStudent extends Student{
 		return historyMarks;
 	}
 
+	
 	public void setHistoryMarks(int historyMarks) {
 		this.historyMarks = historyMarks;
 	}

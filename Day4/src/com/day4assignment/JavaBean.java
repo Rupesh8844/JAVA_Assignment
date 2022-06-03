@@ -7,6 +7,7 @@ public class JavaBean {
 	int marks;
 	
 	
+	
 
 	public JavaBean() {
 	

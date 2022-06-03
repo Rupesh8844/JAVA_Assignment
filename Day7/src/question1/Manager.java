@@ -16,4 +16,5 @@ public class Manager extends Member{
 		this.department = department;
 	}
 	
+	
 }

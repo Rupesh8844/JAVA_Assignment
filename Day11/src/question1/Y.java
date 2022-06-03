@@ -3,6 +3,7 @@ package question1;
 public interface Y {
 	void method_Y1();
 	
+	
 	default  void method_Y2() {
 		System.out.println("inside default method_Y2 of Y interface");
 	}

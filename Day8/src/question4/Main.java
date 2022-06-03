@@ -9,6 +9,7 @@ public class Main {
 		animal[1]= new Cat();
 		animal[2]= new Tiger();
 
+		
 	
 		for(int i=0;i<animal.length;i++) {
 			animal[i].eat();

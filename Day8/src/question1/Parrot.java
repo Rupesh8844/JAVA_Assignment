@@ -10,4 +10,5 @@ public class Parrot extends Bird {
 	public void sing(){
 		System.out.println("I am Singing");
 		}
+	
 }

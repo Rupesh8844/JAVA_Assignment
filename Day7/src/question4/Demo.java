@@ -17,6 +17,7 @@ public class Demo {
 		}
 	}
 	
+	
 	static void findBank(Bank b) {
 		if(b instanceof AxisBank) {
 			b.displayDetails();

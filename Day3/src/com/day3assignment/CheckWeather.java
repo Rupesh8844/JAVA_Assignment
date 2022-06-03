@@ -7,6 +7,7 @@ public class CheckWeather {
 	void checkingCondition(String data1, double tempo) {
 		
 		
+		
 	       if(data1=="its raining") {
 	    	   isRaining=true;
 	    	   System.out.println("Let's stay home");

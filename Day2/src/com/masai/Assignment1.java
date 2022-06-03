@@ -14,6 +14,7 @@ public class Assignment1 {
 		          break;
 		 default :System.out.println("May be Other Indian City");
 		          break;
+		          
 		 }
 		
 	 }

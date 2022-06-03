@@ -10,7 +10,6 @@ public class Define {
 	 * 
 	 */
 	
-	
 	/*
 	class Class1{
 	      public void fun1(){

@@ -3,7 +3,8 @@ package question4;
 //import java.util.Scanner;
 
 public class Main {
-
+	
+	
 	public static Person generatePerson(Person person) {
 		
 		if(person instanceof Student) {

@@ -6,7 +6,6 @@ public class DayScholar extends Student{
 	  
 	  
 	  
-	  
 	     public double getTransportFee() {
 		return transportFee;
 	}

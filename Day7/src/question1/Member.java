@@ -2,6 +2,7 @@ package question1;
 
 public class Member {
 	
+	
 	String name;
 	int age;
 	String phoneNumber;

@@ -8,6 +8,7 @@ public class Ticket {
 	public int getTicketid() {
 		return ticketid;
 	}
+	
 	public void setTicketid(int ticketid) {
 		this.ticketid = ticketid;
 	}

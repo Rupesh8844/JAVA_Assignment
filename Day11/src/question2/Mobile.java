@@ -4,14 +4,23 @@ public class Mobile {
 
 	String[] outdatedModels = {"note4","note5","note6","note7"};
 	
-  public void	searchOutdatedModel(String name){
-		for(String x:outdatedModels) {
-			if(x.equals(name)) {
-				System.out.println(x+"_OUTDATED");
-			}else {
-				System.out.println(name+" mobile is latest");
-				break;
+  public void	searchOutdatedModel(String company, String... models){
+		
+	  for(String y:models) {
+		  boolean flag = false;
+			for(String x:outdatedModels ) {
+				if(y.equals(x)) {
+					System.out.println(y+"_OUTDATED");
+					flag = true;
+					break;
+				}
 			}
+			   if(!flag) {
+				   System.out.println(y+" is latest");
+			   }
+				
+			
 		}
+	  
 	}
 }

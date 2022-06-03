@@ -14,6 +14,7 @@ public class ScienceStudent extends Student{
 		this.mathsMarks = mathsMarks;
 	}
 	
+	
 	public ScienceStudent() {
 		
 	}

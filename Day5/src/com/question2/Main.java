@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] argus) {
 		
 		Ticket ticket=new Ticket();
-		
+	
 		
 		Scanner scan =new Scanner(System.in);
 		

@@ -11,6 +11,7 @@ public class Demo {
 		System.out.println("Enter the number of Students");
          int number = s1.nextInt();
 	     
+         
 	     Student [] students  = new Student[number];
 		
 	    for (int i = 0; i < number; i++) {

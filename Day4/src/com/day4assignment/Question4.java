@@ -11,6 +11,7 @@ package com.day4assignment;
 
 public class Question4 {
 
+	
 	public void funA(int a) {
 		if(a%2==1) {
 			System.out.println(a);

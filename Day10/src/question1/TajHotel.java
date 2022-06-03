@@ -7,6 +7,7 @@ public class TajHotel implements Hotel {
 		System.out.println("Chicken Biryani from the TajHotel");
 	}
 
+	
 	@Override
 	public void masalaDosa() {
 		System.out.println("MasalaDosa from the TajHotel");

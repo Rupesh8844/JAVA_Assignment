@@ -7,6 +7,7 @@ public class Course {
 	String courseName;
 	int courseFee;
 	
+	
 //	The method which is not assign as static are called non-static method.
 //ex= public void displayCourseDetails()(){  }
 	

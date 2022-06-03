@@ -22,6 +22,7 @@ public class Question3 extends Example{
 }
 
 
+
 public class Demo{
 	public static void main(String[] args) {
 		Question3 q1 = new Question3();

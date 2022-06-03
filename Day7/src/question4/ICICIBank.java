@@ -16,6 +16,7 @@ public class ICICIBank extends Bank{
 	
 	double rateOfInterest;
 	
+	
 	@Override
 	void displayDetails() {
 		System.out.println("Bank Name " +this.branchName );

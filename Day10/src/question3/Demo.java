@@ -8,6 +8,7 @@ package question3;
  
  example:-
  
+ 
  abstract class Bike{
      abstract void run();
    }

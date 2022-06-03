@@ -16,6 +16,7 @@ public class Animal {
 }
 
 
+
 /*
  * Q4) Create an Java class with the name Animal.
 Inside this class define following 3 methods

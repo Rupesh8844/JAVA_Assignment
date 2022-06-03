@@ -7,7 +7,6 @@ public class Person {
 	Address myaddress;
 	
 
-
 	public String getName() {
 		return name;
 	}

@@ -20,6 +20,7 @@ Access modifiers are the modifier which is used to increase visibility as well a
  * eg of IS-a relationship
 
 
+
 public class Bird{
 	public void funA() {
 		System.out.println("Inside Bird class");

@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 final class Child extends Parent {
 
-	
-
 
 	@Override
 	public void method1() {

@@ -17,6 +17,7 @@ public class VowelAndConsonent {
     	}
     }
    
+    
    
    
 	public static void main(String[] argu) {

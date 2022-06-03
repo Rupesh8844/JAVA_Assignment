@@ -5,7 +5,6 @@ public class Hosteller extends Student{
 
     double	hostelFee;
 
-    
 		public double getHostelFee() {
 		return hostelFee;
 	}

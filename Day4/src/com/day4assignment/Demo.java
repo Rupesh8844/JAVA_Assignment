@@ -6,6 +6,7 @@ public class Demo {
 	int b;
 	float f;
 	
+	
 	public Demo() {
 		this("Rupesh");
 		System.out.println("It's a empty constructor");
