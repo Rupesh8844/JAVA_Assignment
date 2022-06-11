@@ -1,28 +1,46 @@
 package question2;
 
 public abstract class Employee {
- int employeeId;
- String employeeName;
- double salary;
-public Employee(int employeeId, String employeeName) {
-	super();
-	this.employeeId = employeeId;
-	this.employeeName = employeeName;
-}
- 
-public Employee() {
+	 
+	protected int employeeId;
+	protected String emoloyeeName;
+	protected double salary;
 	
-}
-
-abstract void calculateSalary();
- 
-
-public static void getAObj(Employee ans) {
-	ans = new Employee(salary);
-}
-
-
-
+	public int getEmployeeId() {
+		return employeeId;
+	}
+	
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
+	
+	public String getEmoloyeeName() {
+		return emoloyeeName;
+	}
+	
+	public void setEmoloyeeName(String emoloyeeName) {
+		this.emoloyeeName = emoloyeeName;
+	}
+	
+	public double getSalary() {
+		return salary;
+	}
+	
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	
+	public Employee(int employeeId, String emoloyeeName) {
+		super();
+		this.employeeId = employeeId;
+		this.emoloyeeName = emoloyeeName;
+	}
+	
+	public Employee() {
+		
+	}
+	
+	abstract void calculateSalary();
 
 
 }

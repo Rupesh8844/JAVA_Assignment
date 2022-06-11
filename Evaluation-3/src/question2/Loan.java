@@ -2,27 +2,41 @@ package question2;
 
 public class Loan {
 
-	public double calculateLoanAmount(Employee employeeObj) {
-		double loan;
+public double calculateLoanAmount(Employee employeeObj) {
+		
 		
 		if(employeeObj instanceof PermanentEmployee) {
-			 loan = (15/100) * employeeObj.salary;
 			
+			
+			double aplicable=(employeeObj.getSalary()*15)/100;
+			return aplicable;
+			
+		}
+		else if(employeeObj instanceof TemporaryEmployee) {
+			
+		
+			
+			double  aplicable2= (employeeObj.getSalary()*10)/100;
+			return aplicable2;
 		}
 		else {
-			loan = (10/100) * employeeObj.salary;
-			
+			return 0;
 		}
-		return loan;
-	}
-	
-	private  Loan() {
+		
+		
+		
 		
 	}
-
-	public static void getAobj(Employee employeeObj) {
-		Loan l = new Loan();
-		double ans = l.calculateLoanAmount(employeeObj);
-		System.out.println("Result="+ans);
+	
+	private Loan() {
+		
+		//private constructor;
+	}
+	
+	public static Loan staticMethod() {
+		
+		Loan loan = new Loan();
+		
+		return loan;
 	}
 }

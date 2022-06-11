@@ -12,18 +12,19 @@ public class TemporaryEmployee extends Employee {
 		super(employeeId, employeeName);
 		this.hoursWorked = hoursWorked;
 		this.hourlyWages = hourlyWages;
+		calculateSalary();
 	}
 
-public TemporaryEmployee() {
 	
-}
+    public TemporaryEmployee() {
+	
+     }
 
 
 	@Override
 	void calculateSalary() {
-		double salary = hoursWorked * hourlyWages;
-//		Employee e = 
-		Employee.getAObj(new Employee(salary));
+		 salary = hoursWorked * hourlyWages;
+
 		
 	}
 
